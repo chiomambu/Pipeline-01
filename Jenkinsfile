@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('git checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/chiomambu/Pipeline-01.git'
+                git branch: 'devops', url: 'https://github.com/chiomambu/Pipeline-01.git'
             }
         }
     }
