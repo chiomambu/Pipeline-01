@@ -1,0 +1,10 @@
+-Created a remote repository on git hub
+- git remote set-url origin <<origin-url>> to push my local repo to remote repsitory
+-Using two github accounts. Unset username and password of other account using the command
+    git config --global --unset user.email mbuchioma@gmail.com
+    
+Was facing a challenge of not being able to push to git since i have two github accounts and two usernames and passwords.
+I deleted my github keys at ~control panel > user accounts > credential manager > Windows credentials > Generic credentials
+Next remove the Github keys. :)
+
+Checkout to new branch devops and protect the main branch from accepting commits.
